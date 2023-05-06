@@ -8,6 +8,7 @@ opkg install strongswan-minimal strongswan-mod-eap-mschapv2 strongswan-mod-eap-i
 
 https://openwrt.org/docs/guide-user/services/vpn/strongswan/site2site
 
+```
 #/etc/config/ipsec
 config 'ipsec'
   list listen ''
@@ -42,3 +43,4 @@ config 'p2_proposal' 'g2_aes_sha1'
   option 'encryption_algorithm' 'aes128'
   option 'authentication_algorithm' 'sha1'
 ...
+```
